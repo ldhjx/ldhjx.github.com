@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: 黄建雄的个人网站
+tagline: 中国人寿罗定支公司处经理
 ---
 {% include JB/setup %}
 
