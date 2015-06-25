@@ -36,6 +36,7 @@ h1 span{
 }
 
 #footer {
+    position: relative;
     background-color: #85D4B8;
     padding: 25px 0 15px;
     height: 182px;
@@ -47,6 +48,9 @@ h1 span{
 }
 
 #footer .fllow-me{
+    position: absolute;
+    right: 0;
+    top: 0;
     border: 1px solid #555;
     border-width: 0 1px;
     padding-left: 30px;
