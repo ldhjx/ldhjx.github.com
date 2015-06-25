@@ -38,6 +38,9 @@ h1 span{
 .subject-list{
     margin:60px 0px 20px 0px;
 }
+.subject-list .row{
+    margin-bottom: 50px;
+}
 .subject-list .col-lg-3{
     text-align: center;
 }
