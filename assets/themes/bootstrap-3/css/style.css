@@ -23,9 +23,7 @@ h1 span{
     font-size:30px;
     text-shadow:#229D72 1px 0 0,#229D72 0 1px 0,#229D72 -1px 0 0,#229D72 0 -1px 0;
 }
-#footer {
-  background-color: #85D4B8;
-}
+
 .navbar-green{
     background-color: #01A76D;
     border-radius: 0px;
@@ -35,6 +33,26 @@ h1 span{
 }
 .nav>li>a:hover, .nav>li>a:focus{
    background-color: #037C50;
+}
+
+#footer {
+    background-color: #85D4B8;
+    padding: 25px 0 15px;
+    height: 182px;
+}
+#footer .row a{
+    display: block;
+    margin-bottom: 10px;
+    color: #fff;
+}
+
+#footer .fllow-me{
+    border: 1px solid #555;
+    border-width: 0 1px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 248px;
+    height: 185px;
 }
 
 
