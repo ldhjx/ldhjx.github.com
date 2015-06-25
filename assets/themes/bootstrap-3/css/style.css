@@ -53,10 +53,13 @@ h1 span{
     color: #3edba8;
     cursor:pointer;
     text-shadow:1px 2px 2px #ddd;
-    -webkit-transform:scale(2,2);
+    -webkit-animation: text-scale 2s;
+    -o-animation: text-scale 2s;
+    animation: text-scale 2s;
 }
 @-webkit-keyframes text-scale{
-
+    from {-webkit-transform:scale(1,1);}
+    to {-webkit-transform:scale(1.2,1.2);}
 }
 
 #footer {
