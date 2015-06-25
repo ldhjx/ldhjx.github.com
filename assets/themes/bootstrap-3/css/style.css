@@ -49,11 +49,10 @@ h1 span{
     display: block;
     margin-bottom: 10px;
     text-decoration: none;
-    font-size: 14px;
-    color: #fff;
+    color: #F7F7F7;
 }
 #footer .row a:hover{
-    color:#498CFA;
+    color:#fff;
 }
 
 #footer .fllow-me{
