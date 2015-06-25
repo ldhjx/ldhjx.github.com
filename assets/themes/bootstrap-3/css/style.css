@@ -19,7 +19,7 @@ h1, h2, h3, h4 {
 }
 h1 span{
     color:#fff;
-    border:2px solid #229D72;
+    -webkit-text-shadow:#229D72 1px 0 0,#229D72 0 1px 0,#229D72 -1px 0 0,#229D72 0 -1px 0;
 }
 #footer {
   background-color: #fdcd60;
