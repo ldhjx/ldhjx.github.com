@@ -53,9 +53,9 @@ h1 span{
     color: #3edba8;
     cursor:pointer;
     text-shadow:1px 2px 2px #ddd;
-    -webkit-animation: text-scale 2s;
-    -o-animation: text-scale 2s;
-    animation: text-scale 2s;
+    -webkit-animation: text-scale 1s;
+    -o-animation: text-scale 1s;
+    animation: text-scale 1s;
 }
 @-webkit-keyframes text-scale{
     from {-webkit-transform:scale(1,1);}
