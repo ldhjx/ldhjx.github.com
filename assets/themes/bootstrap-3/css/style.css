@@ -30,9 +30,11 @@ h1 span{
     filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
     -moz-opacity:0.8; /*Firefox私有，透明度50%*/
     opacity:0.8;/*其他，透明度50%*/
+    width:100%;
     position: absolute;
     left: 0px;
     top: 0px;
+    z-index:1024;
 }
 .navbar-green{
     background:none;
