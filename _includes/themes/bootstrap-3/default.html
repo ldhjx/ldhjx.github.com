@@ -122,9 +122,9 @@
     <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
     <script>
-        $(".code-min").hover(function () {
+        $(".code-min").mouseenter(function () {
             $('.code').fadeIn('slow');
-        },function () {
+        }).mouseleave(function () {
             $('.code').fadeOut('slow');
         });
     </script>
