@@ -31,10 +31,10 @@ h1 span{
 .navbar-green a{
 color:#fff;
 }
-.navbar-green .panel-header{
+.navbar-green .page-header{
     border-bottom: 0px;
 }
-.navbar-green .panel-header h1{
+.navbar-green .page-header h1{
     text-indent: 10em;
 }
 .nav>li>a:hover, .nav>li>a:focus{
