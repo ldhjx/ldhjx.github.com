@@ -68,7 +68,9 @@ h1 span{
 }
 #footer .fllow-me img{
     vertical-align: baseline;
-    margin-left: 10px;
+}
+#footer .fllow-me .weixin{
+    margin-left:10px;
 }
 
 
