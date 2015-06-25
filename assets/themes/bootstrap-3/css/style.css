@@ -31,8 +31,8 @@ h1 span{
 .navbar-green a{
 color:#fff;
 }
-.navbar-green .page-header{
-    padding-left:200px
+.navbar-green .page-header h1{
+    padding-left:200px!important
 }
 
 
