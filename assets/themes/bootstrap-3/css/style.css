@@ -29,7 +29,13 @@ h1 span{
     border-radius: 0px;
 }
 .navbar-green a{
-    color:#fff;
+color:#fff;
+}
+.navbar-green .panel-header{
+    border-bottom: 0px;
+}
+.navbar-green .panel-header h1{
+    text-indent: 10em;
 }
 .nav>li>a:hover, .nav>li>a:focus{
    background-color: #037C50;
