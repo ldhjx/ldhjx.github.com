@@ -28,6 +28,8 @@ h1 span{
 }
 .navbar-green{
     background-color: #01A76D;
+    border-radius: 0px;
+    color:#fff;
 }
 
 
