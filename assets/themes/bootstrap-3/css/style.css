@@ -24,13 +24,18 @@ h1 span{
     text-shadow:#229D72 1px 0 0,#229D72 0 1px 0,#229D72 -1px 0 0,#229D72 0 -1px 0;
 }
 
-.navbar-green{
+#navbar-wrapper{
     background-color: #01A76D;
     border-radius: 0px;
     filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
     -moz-opacity:0.8; /*Firefox私有，透明度50%*/
     opacity:0.8;/*其他，透明度50%*/
-
+    position: absolute;
+    left: 0px;
+    top: 0px;
+}
+.navbar-green{
+    background:none;
 }
 .navbar-green a{
 color:#fff;
