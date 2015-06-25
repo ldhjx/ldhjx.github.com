@@ -80,6 +80,9 @@ h1, h2, h3, h4 {
 
 
 /*首页轮播图*/
+#carousel-example-generic{
+    margin-bottom: 10px;
+}
 #carousel-example-generic,#carousel-example-generic .carousel-inner,#carousel-example-generic img{
     height: 453px;
      width: 100%;
