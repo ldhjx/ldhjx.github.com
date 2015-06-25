@@ -70,8 +70,18 @@ h1 span{
 #footer .fllow-me img{
     vertical-align: baseline;
 }
+#footer .fllow-me .weixin{
+    position: relative;
+}
 #footer .fllow-me .weixin img{
     margin-left:10px;
+}
+#footer .fllow-me .weixin .code{
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    width:95px;
+    height:95px;
 }
 
 
