@@ -53,6 +53,10 @@ h1 span{
     color: #3edba8;
     cursor:pointer;
     text-shadow:1px 2px 2px #ddd;
+    -webkit-transform:scale(2,2);
+}
+@-webkit-keyframes text-scale{
+
 }
 
 #footer {
