@@ -104,8 +104,8 @@
                       <a href="">我的 QQ:1205993301</a>
                       <a href="" class="weixin">
                           我的微信:
-                          <img src="{{ BASE_PATH }}/assets/themes/images/two-dimension-code.png">
-                          <img class="code" src="{{ BASE_PATH }}/assets/themes/images/two-dimension-code-max.png" >
+                          <img class="code-min" src="{{ BASE_PATH }}/assets/themes/images/two-dimension-code.png">
+                          <img class="code hide" src="{{ BASE_PATH }}/assets/themes/images/two-dimension-code-max.png" >
                       </a>
                       <a href="http://www.chinalife.com.cn/publish/zhuzhan/index.html"><img src="{{ BASE_PATH }}/assets/themes/images/company.png"/></a>
                   </div>
@@ -121,5 +121,10 @@
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="{{ ASSET_PATH }}/bootstrap/js/jquery.min.js"></script>
     <script src="{{ ASSET_PATH }}/bootstrap/js/bootstrap.min.js"></script>
+    <script>
+        $("#code-min").hover(function () {
+            $('.code').fadeIn('slow');
+        });
+    </script>
   </body>
 </html>
