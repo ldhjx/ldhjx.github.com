@@ -31,7 +31,11 @@ h1 span{
 .navbar-green a{
 color:#fff;
 }
-.page-header h1{
+#wrap .page-header{
+    border-bottom: 0px;
+    margin-bottom: 0px;
+}
+#wrap .page-header h1{
     text-indent: 6em;
 }
 
