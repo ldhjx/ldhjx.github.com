@@ -48,19 +48,17 @@ h1 span{
 .subject-list .col-lg-3 span{
     font-size:78px;
     color:#85d4b8;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
 }
 .subject-list .col-lg-3 span:hover{
     color: #3edba8;
     cursor:pointer;
     text-shadow:1px 2px 2px #ddd;
-    -webkit-animation: text-scale 1s;
-    -o-animation: text-scale 1s;
-    animation: text-scale 1s;
-    animation-fill-mode: forwards;
-}
-@-webkit-keyframes text-scale{
-    from {-webkit-transform:scale(1,1);}
-    to {-webkit-transform:scale(1.2,1.2);}
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    transform: translateY(-8px);
 }
 
 #footer {
