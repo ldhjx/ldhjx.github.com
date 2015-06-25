@@ -51,6 +51,8 @@ h1 span{
 }
 .subject-list .col-lg-3 span:hover{
     color: #3edba8;
+    cursor:pointer;
+    text-shadow:1px 2px 2px #ddd;
 }
 
 #footer {
