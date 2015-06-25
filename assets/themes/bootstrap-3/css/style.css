@@ -37,7 +37,7 @@ h1 span{
 
 /*面板*/
 .subject-list{
-    margin:60px 0px 20px 0px;
+    margin:60px auto 20px auto;
 }
 .subject-list .row{
     margin-bottom: 50px;
