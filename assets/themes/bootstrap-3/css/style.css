@@ -33,6 +33,9 @@ h1 span{
 .navbar-green a{
     color:#fff;
 }
+.nav>li>a:hover, .nav>li>a:focus{
+   background-color: #037C50; 
+}
 
 
 
