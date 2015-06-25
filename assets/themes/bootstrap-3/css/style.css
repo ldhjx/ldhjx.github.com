@@ -39,11 +39,15 @@ h1 span{
     position: relative;
     background-color: #85D4B8;
     padding: 25px 0 15px;
-    height: 182px;
+    height: 222px;
+}
+#footer h3{
+    color:#fff;
 }
 #footer .row a{
     display: block;
     margin-bottom: 10px;
+    text-decoration: none;
     color: #fff;
 }
 
