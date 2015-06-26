@@ -210,3 +210,6 @@ color:#fff;
 #carousel-example-generic,#carousel-example-generic .carousel-inner,#carousel-example-generic .item{
     height: 453px;
 }
+.carousel-caption h3{
+    color:#fff;
+}
