@@ -132,6 +132,14 @@ color:#fff;
     width:95px;
     height:95px;
 }
+#footer .fllow-me .back-to-top span{
+    position: absolute;
+    right: 0px;
+    bottom: 20px;
+    font-size:35px;
+    color:#000;
+}
+
 
 
 
