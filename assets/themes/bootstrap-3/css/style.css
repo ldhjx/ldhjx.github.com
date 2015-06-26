@@ -42,9 +42,9 @@ h1 span{
 .navbar-green a{
 color:#fff;
 text-shadow: 0px 1px 3px #ddd!important;
-    -webkit-transition: 200ms;
-    -moz-transition: 200ms;
-    transition: 200ms;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
 }
 .navbar-green a:hover{
     -webkit-transform: translateY(-3px);
