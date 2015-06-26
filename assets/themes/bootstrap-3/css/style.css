@@ -43,6 +43,10 @@ h1 span{
 }
 .navbar-green a{
 color:#fff;
+text-shadow: 0px 1px 3px #ddd;
+}
+.navbar-green .navbar-brand{
+    font-size:28px;
 }
 #wrap .page-header{
     border-bottom: 0px;
