@@ -44,6 +44,14 @@ h1 span{
 .navbar-green a{
 color:#fff;
 text-shadow: 0px 1px 3px #ddd!important;
+    -webkit-transition: 500ms;
+    -moz-transition: 500ms;
+    transition: 500ms;
+}
+.navbar-green a:hover{
+    -webkit-transform: translateY(-8px);
+    -moz-transform: translateY(-8px);
+    transform: translateY(-8px);
 }
 .navbar-green .navbar-brand{
     font-size:28px;
