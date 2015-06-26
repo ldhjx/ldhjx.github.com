@@ -134,10 +134,11 @@ color:#fff;
 }
 #footer .fllow-me .back-to-top span{
     position: absolute;
-    right: 0px;
-    bottom: 20px;
+    right:-150px;
+    bottom: 0px;
+    height:35px;
     font-size:35px;
-    color:#000;
+    color:#fff;
 }
 
 
