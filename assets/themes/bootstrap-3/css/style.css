@@ -31,11 +31,13 @@ h1 span{
     -moz-opacity:0.8; /*Firefox私有，透明度50%*/
     opacity:0.8;/*其他，透明度50%*/
     width:100%;
+    height:51px;
     position: absolute;
     left: 0px;
-    top: 0px;
+    top: 20px;
     z-index:1024;
 }
+
 .navbar-green{
     background:none;
 }
