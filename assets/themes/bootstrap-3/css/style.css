@@ -119,7 +119,7 @@ color:#fff;
 #footer .fllow-me img{
     vertical-align: baseline;
 }
-#footer .fllow-me .weixin{
+#footer .fllow-me .weixin,#footer .fllow-me .back-to-top{
     position: relative;
 }
 #footer .fllow-me .weixin img{
@@ -134,8 +134,8 @@ color:#fff;
 }
 #footer .fllow-me .back-to-top span{
     position: absolute;
-    right:-50px;
-    bottom:-200px;
+    right:-80px;
+    bottom:00px;
     height:35px;
     font-size:35px;
     color:#fff;
