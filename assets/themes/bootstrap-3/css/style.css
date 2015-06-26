@@ -26,10 +26,8 @@ h1 span{
 
 #navbar-wrapper{
     background-color: #01A76D;
+    background: rgba(1,167,109,0.2) none repeat scroll !important;;
     border-radius: 0px;
-    filter:alpha(opacity=80); /*IE滤镜，透明度50%*/
-    -moz-opacity:0.8; /*Firefox私有，透明度50%*/
-    opacity:0.8;/*其他，透明度50%*/
     width:100%;
     height:51px;
     position: absolute;
@@ -44,9 +42,9 @@ h1 span{
 .navbar-green a{
 color:#fff;
 text-shadow: 0px 1px 3px #ddd!important;
-    -webkit-transition: 500ms;
-    -moz-transition: 500ms;
-    transition: 500ms;
+    -webkit-transition: 200ms;
+    -moz-transition: 200ms;
+    transition: 200ms;
 }
 .navbar-green a:hover{
     -webkit-transform: translateY(-3px);
