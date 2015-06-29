@@ -1,0 +1,21 @@
+---
+layout: page
+title : {{ page.title }}
+category : 险种介绍
+tags : [理财保险]
+---
+{% include JB/setup %}
+
+<div class="cotainer insurance">
+    <div class="row">
+        <div class="col-lg-9">
+
+        </div>
+        <div class="col-lg-3">
+            <ul class="nav nav-pills nav-stacked">
+                {% assign pages_list = site.data.insuranceType %}
+                {% include JB/pages_list %}
+            </ul>
+        </div>
+    </div>
+</div>
