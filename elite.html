@@ -7,8 +7,11 @@ group: navigation
 {% include JB/setup %}
 
 <div class="container photoWall" >
-    <div class="row">
+    <div class="row page-title">
+        <div class="col-lg-3">
+        <span class="glyphicon glyphicon-picture"></span>
         <h3>{{ page.title }}</h3>
+        </div>
     </div>
     <div class="row">
         {% for photo in site.data.photoWall %}
@@ -18,6 +21,7 @@ group: navigation
                 <img src="{{ ASSET_PATH }}{{ photo.url }}" alt="{{ photo.des }}"/>
             </a>
         </div>
+        <div class="col-lg-3">
         {% endfor %}
     </div>
 </div>
