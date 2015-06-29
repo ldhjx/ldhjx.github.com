@@ -233,6 +233,12 @@ text-shadow: 0px 1px 3px #ddd!important;
     text-shadow:4px 4px 5px #333;
 }
 
+/* 所有页面 */
+.page-title .glyphicon{
+    color:#85d4b8 ;
+    margin-right: 15px;
+}
+
 /*照片墙*/
 .photoWall{
     margin-top: 80px;
