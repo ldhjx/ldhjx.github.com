@@ -250,7 +250,7 @@ text-shadow: 0px 1px 3px #ddd!important;
     position: absolute;
     text-align: center;
     width: 100%;
-    top: 50px;
+    height: 100%;
 }
 .photoWall .col-lg-3 img{
     cursor: pointer;
