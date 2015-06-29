@@ -9,13 +9,28 @@ group: navigation
 <div class="container insurance">
     <div class="row">
         <div class="col-lg-9">
-            {% for insurance in site.data.insurance %}
+            {% for insuranceType in site.data.insuranceType %}
             <div class="panel panel-success">
                 <div class="panel-heading">
-                    <h3 class="panel-title">{{ insurance.title }}</h3>
+                    <h3 class="panel-title">{{ insuranceType.title }}</h3>
                 </div>
                 <div class="panel-body">
-                    {{ insurance.brief }}
+                    {{ insuranceType.brief }}
+                </div>
+
+
+                <div class="row">
+                    {% for insurance in site.data.insurance %}
+                    <div class="col-sm-6 col-md-4">
+                        <div class="thumbnail">
+                            <img src="{{ insurance.img }}" alt="">
+                            <div class="caption">
+                                <h3>{{ insurance.title }}</h3>
+                                <p>{{ insurance.brief }}</p>
+                            </div>
+                        </div>
+                    </div>
+                    {% endfor %}
                 </div>
             </div>
             {% endfor %}
