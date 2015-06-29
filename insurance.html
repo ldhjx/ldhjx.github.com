@@ -21,6 +21,7 @@ group: navigation
 
                 <div class="row" style="padding:10px">
                     {% for insurance in site.data.insurance %}
+                    {% if insuranceType.title == insurance.type%}
                     <div class="col-sm-6 col-md-4">
                         <div class="thumbnail">
                             <img src="{{ insurance.img }}" alt="">
@@ -30,6 +31,7 @@ group: navigation
                             </div>
                         </div>
                     </div>
+                    {% endif %}
                     {% endfor %}
                 </div>
             </div>
