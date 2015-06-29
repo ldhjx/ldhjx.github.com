@@ -9,7 +9,16 @@ group: navigation
 <div class="cotainer insurance">
     <div class="row">
         <div class="col-lg-9">
-
+            {% for insurance in site.data.insurance %}
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title">{{ insurance.title }}</h3>
+                </div>
+                <div class="panel-body">
+                    {{ insurance.content }}
+                </div>
+            </div>
+            {% endfor %}
         </div>
         <div class="col-lg-3">
             <ul class="list-group" style="width:200px;margin:0px auto">
