@@ -229,3 +229,15 @@ text-shadow: 0px 1px 3px #ddd!important;
     font-weight:bold;
     text-shadow:4px 4px 5px #333;
 }
+
+/*照片墙*/
+.photoWall{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.photoWall .col-lg-3{
+    text-align: center;
+}
+.photoWall .col-lg-3 img{
+    border: 2px solid #000000;
+}
