@@ -8,8 +8,7 @@ group: navigation
 
 <div class="container photoWall" >
     <div class="row">
-        {% for photo_hash in site.data.photoWall %}
-        {% assign photo = photo_hash[1] %}
+        {% for photo in site.data.photoWall %}
         <div class="col-lg-3">
             <a href="javacript:void(0)">
                 <p>{{ photo.des }}</p>
