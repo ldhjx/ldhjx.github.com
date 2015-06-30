@@ -7,7 +7,7 @@
 - title  : 养老保险
   size   : 4
   link   :
-  brief  :
+  brief  : 现代人的寿命越来越长，而中国已经步入老龄化社会。怎样才能在退休之后保持原有的生活品质？社会养老保险加上商业养老保险是当前解决养老问题的最佳组合。中国人寿灵活多样的养老保险产品为您提供全面的养老保障。
   targetId  : yanglao
 
 - title  : 健康保险
@@ -23,7 +23,7 @@
   targetId  : shaoer
 
 - title  : 定期寿险
-  size   : 29
+  size   : 1
   link   :
   brief  :
   targetId  : dingqi
