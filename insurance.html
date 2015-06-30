@@ -10,9 +10,9 @@ group: navigation
     <div class="row">
         <div class="col-lg-9">
             {% for insuranceType in site.data.insuranceType %}
-            <div class="panel panel-success">
+            <div class="panel panel-success" id="{{ insuranceType.targetId }}">
                 <div class="panel-heading">
-                    <h3 class="panel-title" id="{{ insuranceType.targetId }}">{{ insuranceType.title }}</h3>
+                    <h3 class="panel-title" >{{ insuranceType.title }}</h3>
                 </div>
                 <div class="panel-body">
                     {{ insuranceType.brief }}
