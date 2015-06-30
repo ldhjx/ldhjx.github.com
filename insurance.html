@@ -12,7 +12,7 @@ group: navigation
             {% for insuranceType in site.data.insuranceType %}
             <div class="panel panel-success">
                 <div class="panel-heading">
-                    <h3 class="panel-title">{{ insuranceType.title }}</h3>
+                    <h3 class="panel-title" id="{{ insuranceType.id }}">{{ insuranceType.title }}</h3>
                 </div>
                 <div class="panel-body">
                     {{ insuranceType.brief }}
@@ -34,10 +34,10 @@ group: navigation
             {% endfor %}
         </div>
         <div class="col-lg-3">
-            <ul class="list-group" style="width:200px;margin:0px auto">
+            <ul class="list-group" style="width:200px;margin:0px auto"  data-spy="affix" data-offset-top="60">
                 {% for insuranceType in site.data.insuranceType %}
                 <li class="list-group-item" >
-                    <a href="{{ insuranceType.link }}">{{ insuranceType.title }}</a>
+                    <a href="#{{ insuranceType.id }}">{{ insuranceType.title }}</a>
                     <span class="badge">{{ insuranceType.size }}</span>
                 </li>
                 {% endfor %}
