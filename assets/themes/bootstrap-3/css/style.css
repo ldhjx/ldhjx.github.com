@@ -288,3 +288,9 @@ text-shadow: 0px 1px 3px #ddd!important;
     margin-top: 80px;
     margin-bottom: 60px;
 }
+.insurance .list-group .list-group-item-heading{
+    font-weight: bold;
+}
+.insurance .panel-body,.insurance .list-group .list-group-item-text{
+    text-indent: 2em;
+}
