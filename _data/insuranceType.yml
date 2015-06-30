@@ -17,7 +17,7 @@
   targetId  : jiankang
 
 - title  : 少儿保险
-  size   : 29
+  size   : 11
   link   :
   brief  :
   targetId  : shaoer
@@ -35,7 +35,7 @@
   targetId  : zhongshen
 
 - title  : 意外保险
-  size   : 29
+  size   : 18
   link   :
   brief  :
   targetId  : yiwai
