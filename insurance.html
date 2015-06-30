@@ -38,7 +38,7 @@ group: navigation
                 {% for insuranceType in site.data.insuranceType %}
                 <li class="list-group-item" >
                     <a href="#{{ insuranceType.targetId }}">{{ insuranceType.title }}</a>
-                    <span class="badge badge-info">{{ insuranceType.size }}</span>
+                    <span class="label label-primary">{{ insuranceType.size }}</span>
                 </li>
                 {% endfor %}
             </ul>
