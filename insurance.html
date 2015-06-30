@@ -19,20 +19,16 @@ group: navigation
                 </div>
 
 
-                <div class="row" style="padding:10px">
-                    {% for insurance in site.data.insurance %}
-                    {% if insuranceType.title == insurance.type%}
-                    <div class="col-sm-6 col-md-4">
-                        <div class="thumbnail">
-                            <img src="{{ insurance.img }}" alt="">
-                            <div class="caption">
-                                <h3>{{ insurance.title }}</h3>
-                                <p>{{ insurance.brief }}</p>
-                            </div>
-                        </div>
-                    </div>
-                    {% endif %}
-                    {% endfor %}
+                <div class="list-group">
+                {% for insurance in site.data.insurance %}
+                {% if insuranceType.title == insurance.type%}
+                    <a href="#" class="list-group-item ">
+                        <h4 class="list-group-item-heading">{{ insurance.title }}</h4>
+                        <p class="list-group-item-text">{{ insurance.brief }}</p>
+                    </a>
+
+                {% endif %}
+                {% endfor %}
                 </div>
             </div>
             {% endfor %}
